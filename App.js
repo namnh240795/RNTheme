@@ -29,7 +29,7 @@ const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <Caption type="">1234</Caption>
+      <Caption type="pri">1234</Caption>
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
