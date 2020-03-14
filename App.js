@@ -19,9 +19,13 @@ import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 import Caption from './src/components/Caption';
 import { register } from 'react-native-bundle-splitter';
+import { investigate } from 'react-native-bundle-splitter/dist/utils';
+
 import { StartupTime } from 'react-native-startup-time';
 // import moment from 'moment';
 // register({ require: () => require('moment') });
+console.log('Bundle Info: ', investigate());
+
 register({ require: () => require('./src/components/Caption') });
 
 const App = () => {
