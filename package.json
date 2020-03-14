@@ -32,11 +32,6 @@
     "pretty-quick": "^2.0.1",
     "react-test-renderer": "16.9.0"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,jsx}": [
       "pretty-quick --staged",
