@@ -10,8 +10,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "moment": "^2.24.0",
     "react": "16.9.0",
-    "react-native": "0.61.5"
+    "react-native": "0.61.5",
+    "react-native-bundle-splitter": "^1.0.7",
+    "react-native-startup-time": "^1.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",

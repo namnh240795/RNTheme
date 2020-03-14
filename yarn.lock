@@ -4468,6 +4468,11 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
+moment@^2.24.0:
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
+  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
+
 morgan@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/morgan/-/morgan-1.9.1.tgz#0a8d16734a1d9afbc824b99df87e738e58e2da59"
@@ -5150,6 +5155,16 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
+
+react-native-bundle-splitter@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/react-native-bundle-splitter/-/react-native-bundle-splitter-1.0.7.tgz#06638c626e2eac321dd920936c6ecb87569c84b3"
+  integrity sha512-4k+xR2cgYQVAejVTGu624+I5Vbxzu5fP9PUY2u5YTX7lgEj+clFUqHqBGImqPJ8yfYZ4AdrnDY7oD8W8AStKNg==
+
+react-native-startup-time@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/react-native-startup-time/-/react-native-startup-time-1.2.2.tgz#2e41e5af5a54699a2adf0a910e27ed2cbf88c6ed"
+  integrity sha512-AKmUY/33LQqVdedi0weNcYhRmddu0gMYsywvlqSHxRwez8ygtz1IOEneZfFw7iKyhwIjIan04K/YBJLo08HNeQ==
 
 react-native@0.61.5:
   version "0.61.5"
