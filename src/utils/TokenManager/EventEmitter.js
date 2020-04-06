@@ -15,6 +15,7 @@ export default class EventEmitter {
   }
 
   once(eventName, fn) {
+    // eslint-disable-next-line consistent-this
     const self = this;
 
     const onceFn = (...args) => {

@@ -1,5 +1,5 @@
 {
-  "name": "RNMomoElement",
+  "name": "nam-starter-kit",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,11 +10,8 @@
   },
   "dependencies": {
     "apisauce": "^1.1.1",
-    "moment": "^2.24.0",
     "react": "16.9.0",
-    "react-native": "0.61.5",
-    "react-native-bundle-splitter": "^1.0.7",
-    "react-native-startup-time": "^1.2.2"
+    "react-native": "^0.62.1"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
