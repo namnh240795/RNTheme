@@ -6,7 +6,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "apisauce": "^1.1.1",
@@ -17,16 +18,21 @@
     "@babel/core": "^7.7.7",
     "@babel/runtime": "^7.7.7",
     "@react-native-community/eslint-config": "^0.0.5",
+    "@testing-library/react": "^10.0.2",
+    "@testing-library/react-hooks": "^3.2.1",
     "@types/prop-types": "^15.7.3",
     "@types/react": "^16.9.17",
     "@types/react-native": "^0.60.27",
     "babel-jest": "^24.9.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "^6.8.0",
     "husky": "^3.1.0",
     "jest": "^24.9.0",
     "lint-staged": "^10.0.8",
     "metro-react-native-babel-preset": "^0.57.0",
     "pretty-quick": "^2.0.1",
+    "react-native-testing-library": "^1.13.0",
     "react-test-renderer": "16.9.0"
   },
   "lint-staged": {
